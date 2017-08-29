@@ -203,7 +203,7 @@ public class Sudoku {
         
     }
     
-    public boolean nakedSingles(){
+    private boolean nakedSingles(){
         int count = 0;
         int tmp = 0;
         boolean changed = false;
@@ -233,7 +233,7 @@ public class Sudoku {
     
     
     
-    public boolean hiddenSingles() {
+    private boolean hiddenSingles() {
         int[] count = new int[10];
         boolean[] array = new boolean[10];
         boolean changed = false;
